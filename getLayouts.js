@@ -1,6 +1,6 @@
 $(function(){	
 	$.ajax({
-		url: "https://zrupov.github.io/browserkeyboard.github.io//languages/list.json",
+		url: "https://zrupov.github.io/browserkeyboard.github.io/languages/list.json",
 		success: function(data){
 			data.sort(function(a,b) {
 				if (a.shortName < b.shortName)
